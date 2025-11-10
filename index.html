@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Innovation Center @ Adelphi University </title>
+    <style>
+    body
+    {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.33;
+        /*
+        background-color: #ccddee;
+        color: #000033;
+        */
+        background-color: #222224;
+        color: #f8f8ff;
+        padding: 8px;
+        font-size: 16px;
+    }
+    
+    .profileImage
+    {
+        border-radius: 16px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .horizAlign
+    {
+        display: flex;
+    }
+
+    .center
+    {
+        display: flex;
+        justify-content: center;  /* center horizontally */
+        align-items: center;      /* center vertically */
+        flex-direction: column;   /* stack the two lines vertically */
+
+    }
+
+    .title
+    {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .header
+    {
+        font-size: 24px;
+        font-weight: normal;
+        padding: 24px 0 24px 0;        
+    }
+
+    .paragraph
+    {
+        width: 800px;
+        text-align: justify;
+    }
+
+    a         { color:#88aaff }
+    a:visited { color:#88aaff }
+    a:hover   { color:#ff9988; }
+
+    .project-list {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    margin: 1em 0;
+    }
+
+    .project-list li {
+    margin-bottom: 1.5em; /* extra space between projects */
+    }
+
+    .project-list .title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.25em;
+    }
+
+    .project-list .desc {
+    margin: 0.25em 0 0.4em 0;
+    line-height: 1.4;
+    }
+
+    .project-list .links a {
+    color: #0366d6; /* GitHub blue */
+    text-decoration: none;
+    font-size: 0.95em;
+    }
+
+    .project-list .links a:hover {
+    text-decoration: underline;
+    }
+
+    </style>
+</head>
+<body>
+
+<div class="horizAlign">
+    <div><img class="profileImage" src="panther.jpg"></div>
+    <div class="title center" style="padding-left: 24px;">
+        Adelphi University Innovation Center
+        <br>
+        <a href="https://github.com/innovation-adelphiu" target="_blank">innovation-adelphiu @ GitHub</a>
+    </div>
+</div>
+
+<div class="header">About</div>
+
+<div class="paragraph">
+    The Adelphi University Innovation Center is the nexus for 
+    inspiring, supporting, and showcasing
+    innovative and interdisciplinary activities
+    within the university and in cooperation
+    with industry and community partners.
+</div>
+
+<br>
+
+<div class="paragraph">
+    As part of our mission, 
+    we are proud to share a collection of accessible, 
+    web-based applications 
+    and to release their source code freely 
+    as open-source contributions 
+    for the benefit of the software development community.
+</div>
+
+<div class="header">Projects</div>
+
+<ul class="project-list">
+
+  <li>
+    <div class="title">QR Code Generator</div>
+    <div class="desc">
+      A website that generates QR codes, with optional text above and below, and exports to an image or PDF file.
+    </div>
+    <div class="links">
+      <a href="https://innovation-adelphiu.github.io/qr-code-generator/">🌐 Open App</a> ·
+      <a href="https://github.com/innovation-adelphiu/qr-code-generator">💻 View Code</a>
+    </div>
+  </li>
+
+  <li>
+    <div class="title">Task List</div>
+    <div class="desc">
+      A web-based task manager. Tasks are saved automatically using local browser storage.
+    </div>
+    <div class="links">
+      <a href="https://innovation-adelphiu.github.io/task-list/">🌐 Open App</a> ·
+      <a href="https://github.com/innovation-adelphiu/task-list">💻 View Code</a>
+    </div>
+  </li>
+
+  <li>
+    <div class="title">Timer</div>
+    <div class="desc">
+      A minimalist web-based countdown timer with an animated circular progress ring.
+    </div>
+    <div class="links">
+      <a href="https://innovation-adelphiu.github.io/timer/">🌐 Open App</a> ·
+      <a href="https://github.com/innovation-adelphiu/timer">💻 View Code</a>
+    </div>
+  </li>
+
+</ul>
+
+</body>
+</html>
